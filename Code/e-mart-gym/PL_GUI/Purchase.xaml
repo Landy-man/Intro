@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="PL_GUI.Purchase"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="600" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="303*"/>
+            <RowDefinition Height="117*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+        <RadioButton Name="cash" Content="Cash" HorizontalAlignment="Left" Margin="429,0,0,54" Grid.Row="1" FontSize="18" VerticalAlignment="Bottom" Height="25" Width="110" GroupName="PayMaent" Checked="cash_Checked"/>
+        <RadioButton Name="check" Content="Check" HorizontalAlignment="Left" Margin="429,45,0,0" Grid.Row="1" FontSize="18" VerticalAlignment="Top" Height="46" Width="124" GroupName="PayMaent" Checked="check_Checked"/>
+        <RadioButton  Name="credit" Content="Credit" HorizontalAlignment="Left" Margin="429,70,0,0" Grid.Row="1" Width="95" FontSize="18" GroupName="PayMaent" Checked="credit_Checked" Height="37" VerticalAlignment="Top"/>
+        <Button Name="isMemberWithCRC" Visibility="Collapsed" Content="Pay With exsicting CreditCard"  Click="isMemberWithCRC_Click" HorizontalAlignment="Left" Margin="10,72,0,0" Grid.Row="1" VerticalAlignment="Top" Width="188" Height="28"/>
+       
+        <Button Name="oneTimeShop" Visibility="Collapsed"  Content="One Time Shop" HorizontalAlignment="Left" Margin="253,68,0,0" Grid.Row="1" Click="oneTimeShop_Click" VerticalAlignment="Top" Width="125" Height="30"/>
+        <DataGrid Name="recieptGrid" IsReadOnly="True" ColumnWidth="*" ItemsSource="{Binding}" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="219" Width="568" Background="{x:Null}" BorderBrush="{x:Null}" >
+            <DataGrid.AlternatingRowBackground>
+                <SolidColorBrush Color="#FFB8D9EE" Opacity="0.3"/>
+            </DataGrid.AlternatingRowBackground>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="cName" Binding="{Binding ProductID}"  Header="Product ID" />
+                <DataGridTextColumn x:Name="cType" Binding="{Binding Name}" Header="Name"  />
+                <DataGridTextColumn x:Name="cPrice" Binding="{Binding Price}" Header="Price" />
+                <DataGridTextColumn x:Name="cCount" Binding="{Binding Amount}" Header="Amount" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox Name="onTimeCredit" Visibility="Collapsed"  MaxLength="16" HorizontalAlignment="Left" Height="23" Margin="258,19,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Enter your crdit card" VerticalAlignment="Top" Width="148" GotFocus="onTimeCredit_GotFocus"/>
+        <Label Name="sum" FontSize="19" Content="" HorizontalAlignment="Left" Margin="27,15,0,0" Grid.Row="1" VerticalAlignment="Top" Width="400" Height="48"/>
+        <Button Name="buy"  Content="Buy" Grid.Row="2" HorizontalAlignment="Center" Margin="253,0,265,35"  VerticalAlignment="Bottom" Width="82" Click="buy_Click" Height="30" FontFamily="Comic Sans MS" FontSize="16" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.744"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</UserControl>

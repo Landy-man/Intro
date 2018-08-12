@@ -1,0 +1,18 @@
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\obj\Debug\NUnit.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\NUnit.exe.config
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\NUnit.exe
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\NUnit.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\BL.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\DAL.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\E-Mart GYM.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\nunit.framework.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\PL_GUI.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\Backend2.dll
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\BL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\DAL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\E-Mart GYM.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\PL_GUI.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\nunit.framework.xml
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\bin\Debug\Backend2.pdb
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\obj\Debug\NUnit.exe
+C:\Users\user\Source\Repos\e-mart-gym\NUnit\obj\Debug\NUnit.pdb

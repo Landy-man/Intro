@@ -1,0 +1,13 @@
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\obj\Debug\Backend.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.pdb
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\obj\Debug\E-Mart GYM.pdb
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.dll.config
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.dll
+C:\Users\user\Source\Repos\e-mart-gym\E-Mart GYM\obj\Debug\E-Mart GYM.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\bin\Debug\E-Mart GYM.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\obj\Debug\Backend.csprojAssemblyReference.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\obj\Debug\Backend.csproj.CoreCompileInputs.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\obj\Debug\E-Mart GYM.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\E-Mart GYM\obj\Debug\E-Mart GYM.pdb

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Backend2.ProgressBarUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="135.821" Width="307.463">
+    <Grid Margin="-1,0,1,145" RenderTransformOrigin="0.5,0.5">
+        <Button Height="40" Visibility="Collapsed" Width="80" x:Name="actionbtn" Content="Start loading.."  Click="actionbtn_Click" Margin="113,17,114,-57"/>
+        <ProgressBar Background="LightGray" x:Name="pb1" Minimum="0" Maximum="100" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="289" Margin="7,53,0,-90"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="14" TextWrapping="Wrap" Text="{Binding Value, ElementName=pb1}" VerticalAlignment="Top" Margin="136,62,0,-84" Height="22" Width="41" RenderTransformOrigin="-1.531,-1.996"/>
+        <Label Content="Driving to the store to bring all fresh products" Foreground="Black" Margin="30,17,-30,-48" />
+
+
+
+    </Grid>
+</Window>

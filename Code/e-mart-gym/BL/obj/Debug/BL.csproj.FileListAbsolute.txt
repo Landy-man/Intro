@@ -1,0 +1,28 @@
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\BL.dll.config
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\BL.dll
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\BL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\DAL.dll
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\DAL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\E-Mart GYM.pdb
+C:\Users\user\Source\Repos\e-mart-gym\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\e-mart-gym\BL\obj\Debug\BL.dll
+C:\Users\user\Source\Repos\e-mart-gym\BL\obj\Debug\BL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\Backend2.dll
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\E-Mart GYM.dll
+C:\Users\user\Source\Repos\e-mart-gym\BL\bin\Debug\Backend2.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\BL.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\BL.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\BL.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\Backend2.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\DAL.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\E-Mart GYM.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\Backend2.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\DAL.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\DAL.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\E-Mart GYM.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\bin\Debug\E-Mart GYM.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\obj\Debug\BL.csproj.CopyComplete
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\obj\Debug\BL.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\BL\obj\Debug\BL.pdb

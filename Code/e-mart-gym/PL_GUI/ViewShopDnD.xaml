@@ -1,0 +1,201 @@
+﻿<UserControl x:Class="PL_GUI.ViewShopDnD"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Loaded="allProduct_Click"
+             d:DesignHeight="400" d:DesignWidth="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="661*"/>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="leftSplite" Grid.Column="2" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="220"/>
+                </Grid.RowDefinitions>
+                <StackPanel Name="stkBtnsOrder">
+                    <Button Name="allProduct" Content="View All Products" HorizontalAlignment="Center" Margin="10,20,10,0" Grid.Row="0" VerticalAlignment="Top" Width="150" Click="allProduct_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button Name="searchBy" Content="Search By" HorizontalAlignment="Center" Margin="10,20,10,0" Grid.Row="0" VerticalAlignment="Top" Width="150" Click="searchBy_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btn16x16" AllowDrop="True" Click="btn16x16_Click" Drop="btn16x16_Drop" Margin="10,20,10,0" >
+                        <Button.Template>
+                            <ControlTemplate>
+                                <Border HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                    <Image Source="Images\images.jpg" 
+                               Width="60" 
+                               Height="60" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+                <StackPanel Name="stringPanel" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLine" Content="what do you want to find:" HorizontalAlignment="Left" Height="40" Margin="10,50,0,0" VerticalAlignment="Top"  Width="170"/>
+                    <TextBox Name="toSearch" HorizontalAlignment="Left" Height="23" Margin="34,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                    <Button Name="stringSearch" Content="Search" HorizontalAlignment="Left" Margin="105,50,0,0" VerticalAlignment="Top" Width="75" Click="stringSearch_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel Name="rangePanel" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLine1" Content="From:" HorizontalAlignment="Left" Height="40" Margin="10,40,0,0" VerticalAlignment="Top" Width="50"/>
+                    <TextBox Name="fromSearchR" HorizontalAlignment="Left" Height="23" Margin="65,-35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="110"/>
+                    <Label Name="headLine2" Content="To:" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="50"/>
+                    <TextBox Name="toSearchR" HorizontalAlignment="Left" Height="23" Margin="65,-35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="110"/>
+                    <Button Name="RangeSearch" Content="Search" HorizontalAlignment="Left" Margin="105,40,0,0" VerticalAlignment="Top" Width="75" Click="RangeSearch_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Name="tableShow" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Width="661"/>
+        <Label Name="lbl" Content="Filter By Type:" FontSize="15" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="119" Grid.Column="1"/>
+        <ComboBox Name="Combox" Text="Choose type:" Grid.Column="1" HorizontalAlignment="Left" Margin="10,73,0,0" Grid.Row="1" VerticalAlignment="Top" Width="119" Height="22">
+            <ComboBoxItem Name="showAll" Content="Show All" Selected="allProduct_Click"></ComboBoxItem>
+            <ComboBoxItem Name="food" Content="Food" Selected="food_Selected"></ComboBoxItem>
+            <ComboBoxItem Name="homeAndGarden" Content="Home And Garden" Selected="homeAndGarden_Selected"></ComboBoxItem>
+            <ComboBoxItem Name="fashion" Content="Fashion" Selected="fashion_Selected"></ComboBoxItem>
+            <ComboBoxItem Name="electronics" Content="Electronics" Selected="electronics_Selected"></ComboBoxItem>
+        </ComboBox>
+        <Label Content="Top Seller: " Name="topSeller_label" Grid.Column="1" HorizontalAlignment="Left" Margin="19,137,0,0" Grid.Row="1" VerticalAlignment="Top" Width="65"/>
+        <Rectangle Name="topSellerColor" Fill="#FFD6AF00"  HorizontalAlignment="Left" Height="21" Stroke="Black" VerticalAlignment="Top" Width="45" Grid.Column="1" Margin="85,142,0,0" Grid.Row="1"/>
+    </Grid>
+    <UserControl.Resources>
+        <ContextMenu x:Key="search">
+            <MenuItem  Name="sName"  Header="NAme" Click="sName_Click" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+            </MenuItem>
+            <MenuItem  Name="sType" Header="Type" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="sTyElec" Header="Elctronics" Click="sTyElec_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sTyFashion" Header="Fashion" Click="sTyFashion_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sTyFood" Header="Food" Click="sTyFood_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sTyHAG" Header="Home And Garden" Click="sTyHAG_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem  Name="sPid" Header="Product ID" Click="sPid_Click" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+            </MenuItem>
+            <MenuItem  Name="sStoC" Header="Stock Count" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="sStoC1" Header="Specific" Click="sStoC1_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sStoC2" Header="Range" Click="sStoC2_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem  Name="sPrice" Header="Price" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="sPrice1" Header="Specific" Click="sPrice1_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sPrice2" Header="Range" Click="sPrice2_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+        </ContextMenu>
+    </UserControl.Resources>
+</UserControl>

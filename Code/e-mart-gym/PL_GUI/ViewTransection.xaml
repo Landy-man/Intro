@@ -1,0 +1,187 @@
+﻿<UserControl x:Class="PL_GUI.ViewTransection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            d:DesignHeight="400" d:DesignWidth="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="leftSplite" Grid.Column="0" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="220"/>
+                </Grid.RowDefinitions>
+                <Button Name="allTransection" Content="View All Transections" HorizontalAlignment="Center" Margin="10,20,10,0" Grid.Row="0" VerticalAlignment="Top" Width="150" Click="allTransection_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="searchBy" Content="Search By" HorizontalAlignment="Center" Margin="10,60,10,0" Grid.Row="0" VerticalAlignment="Top" Width="150" Click="searchBy_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <StackPanel Name="stringPanel" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLine" Content="what do you want to find:" HorizontalAlignment="Left" Height="40" Margin="10,50,0,0" VerticalAlignment="Top"  Width="170"/>
+                    <TextBox Name="toSearch" HorizontalAlignment="Left" Height="23" Margin="34,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                    <Button Name="stringSearch" Content="Search" HorizontalAlignment="Left" Margin="105,50,0,0" VerticalAlignment="Top" Width="75" Click="stringSearch_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel Name="rangePanel" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLine1" Content="From:" HorizontalAlignment="Left" Height="40" Margin="10,40,0,0" VerticalAlignment="Top" Width="50"/>
+                    <TextBox Name="fromSearchR" HorizontalAlignment="Left" Height="23" Margin="65,-35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="110"/>
+                    <Label Name="headLine2" Content="To:" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="50"/>
+                    <TextBox Name="toSearchR" HorizontalAlignment="Left" Height="23" Margin="65,-35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="110"/>
+                    <Button Name="RangeSearch" Content="Search" HorizontalAlignment="Left" Margin="105,40,0,0" VerticalAlignment="Top" Width="75" Click="RangeSearch_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel Name="DatePanel1" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLineD" Content="pick the date you want to find:" HorizontalAlignment="Left" Height="40" Margin="10,20,0,0" VerticalAlignment="Top"  Width="170"/>
+                    <DatePicker Name="DtoFind"  Height="40" Margin="10,0,0,0" VerticalAlignment="Top"  Width="170" />
+                    <Button Name="DateSearch" Content="Search" HorizontalAlignment="Left" Margin="105,70,0,0" VerticalAlignment="Top" Width="75" Click="DateSearch_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel Name="DatePanel2" Grid.Column="0" Grid.Row="1" Visibility="Collapsed">
+                    <Label Name="headLineD1" Content="From" HorizontalAlignment="Left" Height="40" Margin="10,20,0,0" VerticalAlignment="Top"  Width="170"/>
+                    <DatePicker Name="DFromFind"  Height="40" Margin="10,-10,0,0" VerticalAlignment="Top"  Width="170" />
+                    <Label Name="headLineD2" Content="To" HorizontalAlignment="Left" Height="40" Margin="10,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                    <DatePicker Name="DToFind"  Height="40" Margin="10,-10,0,0" VerticalAlignment="Top"  Width="170" />
+                    <Button Name="DateSearch2" Content="Search" HorizontalAlignment="Left" Margin="105,20,0,0" VerticalAlignment="Top" Width="75" Click="DateSearch2_Click" FontFamily="Comic Sans MS" FontSize="13">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                                <GradientStop Color="White" Offset="0.744"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Name="tableShow" Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+    <UserControl.Resources>
+        <ContextMenu x:Key="search">
+            <MenuItem  Name="sTraID"  Header="Transection ID" Click="sTraID_Click" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+            </MenuItem>
+            <MenuItem  Name="sDateOP" Header="Date Of Purchase" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="sDateOP1" Header="Specific" Click="sDateOP1_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sDateOP2" Header="Range" Click="sDateOP2_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem  Name="sIsRet" Header="Is Return" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="yesRet" Header="Yes" Click="yesRet_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="noRet" Header="No" Click="noRet_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem  Name="sPay" Header="Payment Method" FontFamily="Comic Sans MS">
+                <MenuItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                        <GradientStop Color="White" Offset="0.744"/>
+                    </LinearGradientBrush>
+                </MenuItem.Background>
+                <MenuItem Name="sPCash" Header="Cash" Click="sPCash_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sPCredit" Header="Credit" Click="sPCredit_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <MenuItem Name="sPCheck" Header="Check" Click="sPCheck_Click" FontFamily="Comic Sans MS">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+        </ContextMenu>
+    </UserControl.Resources>
+</UserControl>

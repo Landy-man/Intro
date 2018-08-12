@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="PL_GUI.Profile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            d:DesignHeight="400" d:DesignWidth="1000">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Margin="-85,-47,-14,-62" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <StackPanel Name="leftSplite" Grid.Column="0" Grid.Row="1" Width="745" Height="351">
+                <Label Content="Teudat Zehute :" HorizontalAlignment="Left" Grid.Row="2" Height="25" Margin="90,50,0,0" Width="120" FontFamily="AR JULIAN" FontSize="14"/>
+                <TextBlock Name="teudatZ" HorizontalAlignment="Left" Height="30" Margin="200,-23,0,0" TextWrapping="Wrap" Text="{Binding TeudatZehute}"  Width="100"/>
+                <Label Name="first" Content="First Name :" HorizontalAlignment="Left" Height="25" Margin="90,15,0,0" Width="110" FontFamily="AR JULIAN" FontSize="14"/>
+                <TextBlock Name="firstN" HorizontalAlignment="Left" Height="30" Margin="200,-25,0,0" TextWrapping="Wrap" Text="{Binding FirstName}"  Width="100"/>
+                <Label Name="last" Content="Last Name :" HorizontalAlignment="Left" Height="25" Margin="90,15,0,0" Width="110" FontFamily="AR JULIAN" FontSize="14"/>
+                <TextBlock Name="lastN" HorizontalAlignment="Left" Height="30" Margin="200,-25,0,0" TextWrapping="Wrap" Text="{Binding LastName}"  Width="100"/>
+                <Button x:Name="changePassword" Content="Change Password" HorizontalAlignment="Left" Height="30" Margin="76,20,0,0" Grid.Row="1" VerticalAlignment="Top" Width="170" Click="changePassword_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="creditRemove" Content="Remove Credit Card " HorizontalAlignment="Left" Height="30" Margin="76,20,0,0" Grid.Row="1" VerticalAlignment="Top" Width="170" Visibility="Collapsed" Click="creditRemove_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="creditAdd" Content="Add Credit Card " HorizontalAlignment="Left" Height="30" Margin="76,20,0,0" Grid.Row="1" VerticalAlignment="Top" Width="170" Visibility="Collapsed" Click="creditAdd_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Margin="0,10,10,10" Grid.RowSpan="2" Grid.Column="1">
+            <StackPanel Name="rightSplite" Grid.Column="1" Grid.Row="1" Height="314" Width="515" Visibility="Collapsed">
+                <Label Content="Enter your old password :" HorizontalAlignment="Left" Height="38" Margin="40,60,0,0" Width="200" FontFamily="Lucida Calligraphy" FontSize="13"/>
+                <PasswordBox x:Name="oldPassword" Height="34" Margin="120,-48,0,0" Width="160" />
+                <Label Content="Enter your new password :" HorizontalAlignment="Left" Height="38" Margin="40,30,0,0" Width="200" FontFamily="Lucida Calligraphy" FontSize="13"/>
+                <PasswordBox x:Name="newPassword" Height="34" Margin="120,-48,0,0" Width="160" />
+                <Button x:Name="save" Content="Change Password" HorizontalAlignment="Left" Height="38" Margin="350,50,0,0" Width="140" Click="save_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Margin="0,10,10,10" Grid.RowSpan="2" Grid.Column="1">
+            <StackPanel Name="rightSplite2" Grid.Column="1" Grid.Row="1" Height="314" Width="515" >
+                <Label Content="Enter your credit number :" HorizontalAlignment="Left" Height="38" Margin="50,10,0,0" Width="190" FontFamily="Lucida Calligraphy" FontSize="12"/>
+                <TextBox x:Name="creditNumber" Height="34" Margin="120,-50,0,0" Width="160" />
+                <Label Content="Enter your CVV number :" HorizontalAlignment="Left" Height="38" Margin="50,20,0,0" Width="190" FontFamily="Lucida Calligraphy" FontSize="12"/>
+                <TextBox x:Name="cvv" Height="34" Margin="120,-50,0,0" Width="160" />
+                <Label Content="Enter your Credit validity :" HorizontalAlignment="Left" Height="38" Margin="50,20,0,0" Width="190" FontFamily="Lucida Calligraphy" FontSize="12"/>
+                <Calendar Name="calander" DisplayMode="Year" Grid.Row="2" VerticalAlignment="Center"  Margin="150,-50,10,3"   />
+                <Button x:Name="save2" Content="Save" HorizontalAlignment="Left" Height="30" Margin="420,-5,0,0" Width="95" Click="save2_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Margin="0,10,10,10" Grid.RowSpan="2" Grid.Column="1">
+            <StackPanel Name="rightSplite3" Grid.Column="1" Grid.Row="1" Height="314" Width="515" Visibility="Collapsed">
+                <Label Content="Are you sure you want to remove your credit card from our database? " HorizontalAlignment="Left" Height="38" Margin="25,100,0,0" Width="500" FontFamily="Lucida Calligraphy" FontSize="12"/>
+                <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Height="30" Margin="120,30,0,0" Width="95" Click="back_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="continue" Content="Continue" HorizontalAlignment="Left" Height="30" Margin="290,-30,0,0" Width="95" Click="continue_Click" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Viewbox>
+    </Grid>
+
+</UserControl>

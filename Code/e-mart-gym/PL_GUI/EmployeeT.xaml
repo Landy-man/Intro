@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="PL_GUI.EmployeeT" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                    d:DesignHeight="370" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="330"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="670"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="save" Grid.Column="2" Grid.Row="3" Content="save" Click="save_Click" Margin="5" FontFamily="Comic Sans MS" FontSize="16" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.744"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <StackPanel Grid.RowSpan="2" Name="tablePanel">
+            <DataGrid Grid.Row="1" Grid.Column="0" Name="gridEmployee" AutoGenerateColumns="False"  IsReadOnly="True" ColumnWidth="*" SelectionMode="Extended"  ItemsSource="{Binding}" AlternationCount="2" AreRowDetailsFrozen="True" Margin="10,10,0,0" Background="{x:Null}" BorderBrush="{x:Null}" >
+                <DataGrid.AlternatingRowBackground>
+                    <SolidColorBrush Color="#FFB8D9EE" Opacity="0.3"/>
+                </DataGrid.AlternatingRowBackground>
+                <DataGrid.Columns>
+                    <DataGridTextColumn IsReadOnly="True" x:Name="cTZ" Binding="{Binding TeudatZehute}" Header="Teudat Zehute" />
+                    <DataGridTextColumn x:Name="cFirstN" Binding="{Binding FirstName}" Header="First Name" />
+                    <DataGridTextColumn x:Name="cLastN" Binding="{Binding LastName}" Header="Last Name" />
+                    <DataGridTextColumn x:Name="cDepID" Binding="{Binding DepartmentID}" Header="Department ID" />
+                    <DataGridTextColumn x:Name="cSalary" Binding="{Binding Salary}" Header="Salary" />
+                    <DataGridTextColumn  IsReadOnly="True" x:Name="cGender" Binding="{Binding Gender}" Header="Gender" />
+                    <DataGridTextColumn x:Name="cSuperID" Binding="{Binding SupervisorID}" Header="His Supervisor ID" />
+                </DataGrid.Columns>
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate>
+                        <Border>
+                            <StackPanel>
+                                <Label Name="headLine" Content="You can change the following fields:" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <Label Name="firstName" Content="First Name :" HorizontalAlignment="Left" Height="30" Margin="20,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <TextBox Name="editFirstName" HorizontalAlignment="Left" IsReadOnly="False" Text="{Binding FirstName}" Height="30" Margin="180,-25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                                <Label Name="lastName" Content="Last Name :" HorizontalAlignment="Left" Height="30" Margin="20,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <TextBox Name="editLastName" HorizontalAlignment="Left" IsReadOnly="False" Text="{Binding LastName}" Height="30" Margin="180,-25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                                <Label Name="depID" Content="Location (department ID) :" HorizontalAlignment="Left" Height="30" Margin="20,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <TextBox Name="editDepID" HorizontalAlignment="Left" IsReadOnly="False" Text="{Binding DepartmentID}" Height="30" Margin="180,-25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                                <Label Name="salary" Content="Salary :" HorizontalAlignment="Left" Height="30" Margin="20,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <TextBox Name="editSalary" HorizontalAlignment="Left" Text="{Binding Salary}" IsReadOnly="False" Height="30" Margin="180,-25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                                <Label Name="superID" Content="Supervisor ID :" HorizontalAlignment="Left" Height="30" Margin="20,0,0,0" VerticalAlignment="Top"  Width="170"/>
+                                <TextBox Name="editSuper" HorizontalAlignment="Left" Text="{Binding SupervisorID}" Height="30" IsReadOnly="False" Margin="180,-25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
+                                <Button Name="edit" Content="Save Changes" HorizontalAlignment="Left" Margin="340,-25,0,0" VerticalAlignment="Top" Width="75" Click="edit_Click"/>
+                                <Button Name="delete2" Content="Delete" HorizontalAlignment="Left" Margin="440,-25,0,0" VerticalAlignment="Top" Width="75" Click="delete2_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</UserControl>

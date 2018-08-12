@@ -1,0 +1,124 @@
+﻿<Window x:Class="PL_GUI.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainScreen" Height="500" Width="1200">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <RadialGradientBrush Opacity="0.6" Center="658,467" GradientOrigin="901,200" MappingMode="Absolute" RadiusY="700" RadiusX="600" SpreadMethod="Reflect">
+                <GradientStop Color="White" Offset="0.77"/>
+                <GradientStop Color="#FF96D9FF" Offset="0.912"/>
+                <GradientStop Color="#FFDFF3FF" Offset="0.937"/>
+                <GradientStop Color="#FFABD8F3" Offset="0.814"/>
+                <GradientStop Color="#FFC4E3F7" Offset="0.965"/>
+                <GradientStop Color="#FFB6E0FB" Offset="0.868"/>
+                <GradientStop Color="#FFCEE8F8" Offset="0.864"/>
+                <GradientStop Color="#FF9CC9E8" Offset="0.991"/>
+                <GradientStop Color="#FFD6EDFB" Offset="0.833"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="470"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="897*"/>
+        </Grid.ColumnDefinitions>
+        <Menu Opacity="0.5">
+            <Menu.Background>
+                <RadialGradientBrush Opacity="0.5" Center="658,467" GradientOrigin="901,200" MappingMode="Absolute" RadiusY="700" RadiusX="600" SpreadMethod="Reflect">
+                    <GradientStop Color="White" Offset="0.77"/>
+                    <GradientStop Color="#FF96D9FF" Offset="0.912"/>
+                    <GradientStop Color="#FFDFF3FF" Offset="0.937"/>
+                    <GradientStop Color="#FFABD8F3" Offset="0.814"/>
+                    <GradientStop Color="#FFC4E3F7" Offset="0.965"/>
+                    <GradientStop Color="#FFB6E0FB" Offset="0.868"/>
+                    <GradientStop Color="#FFCEE8F8" Offset="0.864"/>
+                    <GradientStop Color="#FF9CC9E8" Offset="0.991"/>
+                    <GradientStop Color="#FFD6EDFB" Offset="0.833"/>
+                </RadialGradientBrush>
+            </Menu.Background >
+            <MenuItem Name="save" Header="Save" Width="60" Click="save_Click" FontSize="16"  FontFamily="Segoe UI Black" TextOptions.TextHintingMode="Fixed" FontStretch="SemiCondensed" />
+            <MenuItem Name="logOut" Header="Log OUT" Width="80" Click="logOut_Click" FontSize="16"  FontFamily="Segoe UI Black" TextOptions.TextHintingMode="Fixed" FontStretch="SemiCondensed" />
+        </Menu>
+        <StackPanel Name="menu"  Orientation="Vertical" Grid.Row="1" Grid.Column="0" >
+            <WrapPanel x:Name="menu2" Orientation="Vertical">
+                <Button Name="details" Margin="10" Content="View Details" Click="Details_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="employees" Content="View Employees " Margin="10" Click="Employee_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="clubMembers" Margin="10" Content="View Club Members " Click="clubMembers_Click"  Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="department" Margin="10" Content="View Depratments " Click="department_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="products" Margin="10" Content="View Products " Click="Products_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="transaction" Margin="10" Content="View Transactions " Click="transaction_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="user" Margin="10" Content="View Users " Click="user_Click" Width="130" FontFamily="Comic Sans MS" FontSize="13">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="shop" Content="Shop now" Margin="10" Click="Shop_Click" FontFamily="Comic Sans MS" FontSize="13" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Name="beClub" Content="Join the club" Margin="10,60,10,10" Click="beClub_Click" FontFamily="Comic Sans MS" FontSize="13" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.744"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel Name="chengeScreen" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"/>
+    </Grid>
+
+</Window>

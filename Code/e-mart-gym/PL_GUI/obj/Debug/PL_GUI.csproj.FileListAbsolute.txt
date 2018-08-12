@@ -1,0 +1,149 @@
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\PL_GUI.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\PL_GUI.pdb
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\BL.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\DAL.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\BL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\E-Mart GYM.pdb
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\DAL.pdb
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddClubMember.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddDepartment.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddEmployee.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddProduct.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ClubMemberT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\DepartmentT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\EmployeeT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\EnterScreen.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\MainMenu.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ProductT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Profile.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Register.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\TransectionT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\UserT.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewClubMember.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewDepartment.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewEmployee.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewProduct.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewTransection.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewUser.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddClubMember.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddDepartment.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddEmployee.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\AddProduct.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ClubMemberT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\DepartmentT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\EmployeeT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\EnterScreen.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\MainMenu.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ProductT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Profile.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Register.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\TransectionT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\UserT.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewClubMember.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewDepartment.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewEmployee.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewProduct.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewTransection.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewUser.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI_MarkupCompile.cache
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.g.resources
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.Properties.Resources.resources
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.GenerateResource.Cache
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.pdb
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PaymentScreen.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PopUpAmount.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ProductDTG.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\purchase-CreditCard.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewShopDnD.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PaymentScreen.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PopUpAmount.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ProductDTG.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\purchase-CreditCard.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\ViewShopDnD.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.ResolveComReference.cache
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\MyDefaultPreferences.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\PL_GUI_MarkupCompile.lref
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Purchase.baml
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\obj\Debug\Purchase.g.cs
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\Backend2.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\E-Mart GYM.dll
+C:\Users\user\Source\Repos\e-mart-gym\PL_GUI\bin\Debug\Backend2.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\PL_GUI.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\PL_GUI.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\Backend2.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\BL.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\E-Mart GYM.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\DAL.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\Backend2.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\BL.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\BL.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\E-Mart GYM.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\E-Mart GYM.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\DAL.pdb
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\bin\Debug\DAL.dll.config
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csprojAssemblyReference.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.ResolveComReference.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddClubMember.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddDepartment.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddEmployee.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddProduct.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ClubMemberT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\DepartmentT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\EmployeeT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\EnterScreen.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\MainMenu.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\MyDefaultPreferences.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PaymentScreen.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PopUpAmount.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ProductT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Profile.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\purchase-CreditCard.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Purchase.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Register.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\TransectionT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\UserT.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewClubMember.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewDepartment.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewEmployee.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewProduct.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewShopDnD.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewTransection.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewUser.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddClubMember.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddDepartment.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddEmployee.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\AddProduct.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ClubMemberT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\DepartmentT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\EmployeeT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\EnterScreen.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\MainMenu.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PaymentScreen.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PopUpAmount.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ProductDTG.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ProductT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Profile.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\purchase-CreditCard.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Purchase.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\Register.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\TransectionT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\UserT.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewClubMember.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewDepartment.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewEmployee.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewProduct.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewShopDnD.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewTransection.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ViewUser.g.cs
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI_MarkupCompile.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI_MarkupCompile.lref
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\ProductDTG.baml
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.g.resources
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.Properties.Resources.resources
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.GenerateResource.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.CoreCompileInputs.cache
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.csproj.CopyComplete
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.dll
+D:\Old stuff\Dropbox\לימודים\שנה א' סמסטר ב'\מבוא להנדסת תוכנה\6pm-Group6 2\Code\e-mart-gym\PL_GUI\obj\Debug\PL_GUI.pdb

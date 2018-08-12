@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="PL_GUI.AddDepartment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="700">
+    <Grid>
+        <Button Name="save" Content="Save" HorizontalAlignment="Left" Height="30" Margin="500,310,0,0" VerticalAlignment="Top" Width="100" Click="save_Click" FontFamily="Comic Sans MS" FontSize="13">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.744"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <WrapPanel Orientation="Horizontal">
+            <Label Content="Name :" HorizontalAlignment="Left" Height="30" Margin="160,100,0,0" VerticalAlignment="Top"  Width="150" FontFamily="Lucida Calligraphy" FontSize="13"/>
+            <TextBox x:Name="AName" Height="25" TextWrapping="Wrap" Text="" Width="100" Margin="50,100,0,0"/>
+        </WrapPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="PL_GUI.ProductDTG"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Backend"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+
+            <Grid>
+        <DataGrid d:LayoutOverrides="Width" Margin="0,12,0,0" ColumnWidth="*" SelectionMode="Extended" IsReadOnly="True" Name="gridProduct" AutoGenerateColumns="False" ItemsSource="{Binding}" Background="{x:Null}" BorderBrush="{x:Null}" >
+            <DataGrid.AlternatingRowBackground>
+                <SolidColorBrush Color="#FFB8D9EE" Opacity="0.3"/>
+            </DataGrid.AlternatingRowBackground>
+            <DataGrid.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="MyDefaultPreferences.xaml"/>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+            </DataGrid.Resources>
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="cName" Binding="{Binding Name}" Header="Name" />
+                <DataGridTextColumn x:Name="cType" Binding="{Binding Type}" Header="Type"  />
+                <DataGridTextColumn x:Name="cPrice" Binding="{Binding Price}" Header="Price" />
+                <DataGridTextColumn x:Name="cCount" Binding="{Binding StockCount}" Header="Stock Count" />
+
+                
+          
+            </DataGrid.Columns>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{DynamicResource NotBestSeller}" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsTopSeller}" Value="true">
+                            <Setter Property="Background" Value="{DynamicResource BestSeller}" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+    </Grid>
+</UserControl>
